@@ -1,0 +1,15 @@
+# Snakemake internal cache
+.snakemake/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Note: We are deliberately NOT ignoring the `data/` and `results/` folders 
+# because this is a portfolio project and we want employers to see your toy files!
+# In a real clinical setting, you would add data/ and results/ here so you don't 
+# accidentally upload gigabytes of sensitive patient data to GitHub.

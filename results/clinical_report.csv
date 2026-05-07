@@ -1,0 +1,5 @@
+Position,Ref,Alt,Quality,Impacted_Genes
+10,A,T,99.0,Intergenic (No Gene)
+1000,C,G,99.0,ORF1ab (gene) | YP_009724389.1 (CDS) | YP_009725295.1 (CDS)
+26000,G,C,99.0,ORF3a (gene) | YP_009724391.1 (CDS)
+29000,A,C,99.0,N (gene) | YP_009724397.2 (CDS)

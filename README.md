@@ -17,13 +17,19 @@ The pipeline is managed by **Snakemake** and utilizes a combination of Bash (`aw
    - It cross-references the genomic coordinates of each mutation against the GFF3 features to determine which specific genes or coding sequences (CDS) were impacted.
    - Outputs a final clinical report in CSV format for downstream medical review.
 
-## Requirements
-- Conda/Miniconda
-- Python 3+
-- Snakemake (`conda install -c bioconda snakemake`)
+## Setup and Requirements
+This project includes an `environment.yml` file to ensure complete reproducibility. You can instantly recreate the exact software environment required to run this pipeline:
+
+```bash
+# Create the environment
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate variant_triage_env
+```
 
 ## How to Run
-To execute the pipeline, simply run the following command from the root directory:
+Once your environment is activated, execute the pipeline from the root directory by running:
 ```bash
 snakemake --cores 1
 ```
